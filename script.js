@@ -1,10 +1,10 @@
-let Monal[
-    {
+let Monal = {
         resturentName: "Monal",
+        ownerDetails: {},
         ownerName: "Luqman Ali Afzal",
         location: "‎Pir Sohawa Road, Islamabad",
-        Opening date‎: ‎"05-11-1969",
-        Opening Hours‎: ‎"9AM--12AM",
+        openingDate‎: ‎"05-11-1969",
+        openingHour: ‎"9AM--12AM",
         phoneNo: "(051) 2898044",
         profile: "instagram",
         atYoutube: "http://www.youotube.com/watch?v=MdAqnZwYFyQ",
@@ -17,15 +17,11 @@ let Monal[
         noOfFullStaff: 200,
         noOfTables: 500,
         noOFChairs: 5000,
-        home: ["Main", "Home", "About", "Menu", "A La Carte", "Breakfast", 
-                "Platters", "Individual Platters", "Breakfast Platters", 
-                "Hi-Tea Platters", "Sunday Brunch", "Party Menu", "Reservation"],
-        homeDetails: ["Menu", "About", "Contacts", "Sunday brunch buffet"],
         areas: ["play area", "hi-tea area", "reception", "birthday party areas", 
                "family areas"],
         deals: ["family deals", "kids deals", "ramzan iftar/sehri deals",
                "fast food deals", "italian deals", "pakistani deals", "sweetitems deals",
-                "spicy food deals"]
+                "spicy food deals"],
         staff: [
             {
                 name: "M.Afzal" ,
@@ -77,24 +73,16 @@ let Monal[
             }
         ],
         openHours: {
-            "Saturday" = "9am–12:30am",
-            "Sunday" = "9am–12:30am",
-           " Monday" = "9am–12:30am",
-           " Tuesday" =	"9am–12:30am",
-           " Wednesday" = "9am–12:30am",
-            "Thursday" = "9am–12:30am",
-            "Friday" = "9am–12:30am",
+            Saturday: "9am–12:30am",
+            Sunday: "9am–12:30am",
+            Monday: "9am–12:30am",
+            Tuesday:	"9am–12:30am",
+            Wednesday: "9am–12:30am",
+            Thursday: "9am–12:30am",
+            Friday: "9am–12:30am",
         },
         Phone: "(051) 2898044",
         quantityOfVariety: "300",
-        menu: ["Bread & Naans", "Meaty Bites", "Wings", "Frnch Fries", "Soups"],
-    items: ["FastFood", "Continental", "From around the World", "Rice Variety", "Oriental",
-        "Golden Grill", "Special Deals Family Deals", "Individual Deals", "Hi-Tea", "Meal Deals",
-        "Namkeen", "Salad Bar", "Freshly Baked", "Meetha", "Thin Crust Pizza", "Deep Pan Pizza",
-        "Italian Pasta & Lasagna", "Fresh Juices", "MilkShakes", "Summer Coolers", "Chilling Corner",
-        "Ice Cream Shakes", "Ice Cream Treats", "Beat the Heat", "Seasonal Dessert", "Winter Warmers",
-        "Cakes,Bakes and Dessert", "Special Drinks", "Live Kitchen"],
-    sections: ["Tawa Section", "Namkeen SEction", "Fish Section", "Desserts"],
     pakistaniBreakFast: ["Choice of Fresh Seasonal Juice(300 ml)",
                         "Lassi Two Farm Fresh Eggs", "Lahori Chanay Poori(2 Pieces)", 
                         "Pakistani Paratha(1 piece)", "Suji Halwa Poodinay Walay Aloo", 
@@ -120,25 +108,25 @@ let Monal[
                             "lahori chirga", "Aloo Bhujia", "Beef Qeema", "Chicken tikka",
                            "Seekh Kabab", "Chana Chaat", "Aloo Keema", "Samosas", "Sajji", "Haleem"],
     platterPrice: {
-        "chinese platter" = "Rs.765",
-        "continental platter" = "Rs.765",
-        "italian platter" = "Rs.865",
-        "kabuli platter" = "RS.765",
-        "kids platter" = "Rs.595",
-        "mutton lovers platter" = "Rs.1045",
-        "thai platter" = "Rs.765",
-        "vegetraian platter" = "Rs.765",
-        "pakistani platter" = "Rs.765",
+        chinesePlatter: "Rs.765",
+        continentalPlatter: "Rs.765",
+        italianPlatter: "Rs.865",
+        kabuliPlatter: "RS.765",
+        kidsPlatter: "Rs.595",
+        muttonLoversPlatter: "Rs.1045",
+        thaiPlatter: "Rs.765",
+        vegetraianPlatter: "Rs.765",
+        pakistaniPlatter: "Rs.765",
     },   
     iftarDishes: ["Iranian Khajoor", "Dahi Baray", "Fruit Chaat", "Chinese Meat Balls",
                 "Cheese Naan", "BBQ Chicken Wings", "Aalo Samosa", "Assorted PAkoras",
                 "Monal Special Potato Cutlus", "Chicken/Cheese Sandwiches", "Frosted Lemonade",
                 "Mint Lemonade", "Nestle Lemon / Orange", "Mix Tea / Green Tea"],
-    MainCoursesOfIftar: ["chicken reshmi tikka(boneless)", "chicken achari boti (with bone)",
+    mainCoursesOfIftar: ["chicken reshmi tikka(boneless)", "chicken achari boti (with bone)",
                         "chicken gola kabab", "batter fried fish & chips", "mutton karahi (with bone)",
                         "chicken makhni(boneless)", "kabuli pilao", "thai chicken with cashew nuts",
                         "chicken manchorian"],
-    branchescity: ["rawalpindi", "islamabad", "faisalabad", "lahore"],
+    branchesCity: ["rawalpindi", "islamabad", "faisalabad", "lahore"],
     searchRelatedToMonalDetails: [
         "monal islamabad menu",
         "monal islamabad heights",
@@ -148,7 +136,15 @@ let Monal[
         "monal islamabad islamabad pics",
         "monal islamabad hi tea",
         "monal resturant islamabad platter price",
-    ]
+    ],
+    menu: ["Bread & Naans", "Meaty Bites", "Wings", "Frnch Fries", "Soups"],
+    items: ["FastFood", "Continental", "From around the World", "Rice Variety", "Oriental",
+        "Golden Grill", "Special Deals Family Deals", "Individual Deals", "Hi-Tea", "Meal Deals",
+        "Namkeen", "Salad Bar", "Freshly Baked", "Meetha", "Thin Crust Pizza", "Deep Pan Pizza",
+        "Italian Pasta & Lasagna", "Fresh Juices", "MilkShakes", "Summer Coolers", "Chilling Corner",
+        "Ice Cream Shakes", "Ice Cream Treats", "Beat the Heat", "Seasonal Dessert", "Winter Warmers",
+        "Cakes,Bakes and Dessert", "Special Drinks", "Live Kitchen"],
+    sections: ["Tawa Section", "Namkeen SEction", "Fish Section", "Desserts"],
     dessertMenu: [
         {
             name: "Sizzling Brownie & ICe cream",
@@ -182,7 +178,126 @@ let Monal[
             name: "Ice Cream Cake Slice",
             price: "Rs.395",
         },
+    ],
+    specialDrinks: [
+        {
+            name: "Pina Colada",
+            price: "Rs.425",
+        },
+        {
+            name: "Blue Lagon",
+            price: "Rs.425",
+        },
+        {
+            name: "Kit Kat Kold Kofee",
+            price: "Rs.525",
+        },
+        {
+            name: "Cold Coffee",
+            price: "Rs.425",
+        },
+        {
+            name: "Frosted Lemonade",
+            price: "Rs.215",
+        },
+        {
+            name: "Mint Lemonade",
+            price: "Rs.255",
+        },
+        {
+            name: "Freenze",
+            price: "Rs.425",
+        },
+        {
+            name: "Mandarin Ambrosia",
+            price: "Rs.425",
+        },
+        {
+            name: "Summer Blend",
+            price: "Rs.425",
+        },
+        {
+            name: "Captain Blue",
+            price: "Rs.425",
+        },
+    ]
+    fastFood: [
+        {
+            name: "Chicken Steak Burger in Pepper Sauce",
+            price: "Rs.855",  
+        },
+        {
+            name: "Chicken Steak Burger in Mushroom Sauce",
+            price: "Rs.855",  
+        },
+        {
+            name: "Beef Steak Burger in Pepper Sauce",
+            price: "Rs.855",  
+        },
+        {
+            name: "Beef Steak Burger in Mashroom Sauce",
+            price: "Rs.795",  
+        },
+        {
+            name: "Chicken Burger",
+            price: "Rs.595",  
+        },
+        {
+            name: "Chicken Double Decker Burger",
+            price: "Rs.695",  
+        },
+        {
+            name: "Chiken Cheese Burger",
+            price: "Rs.655",  
+        },
+        {
+            name: "Fried Chicken Breast Burger",
+            price: "Rs.695",  
+        },
+        {
+            name: "Fried Chicken Breast Burger With Cheese",
+            price: "Rs.745",  
+        },
+        {
+            name: "Grill Chicken Burger",
+            price: "Rs.635",  
+        },
+        {
+            name: "Monal Special Burger",
+            price: "Rs.745",  
+        },
+        {
+            name: "Beef Cheese Burger",
+            price: "Rs.635",  
+        },
+        {
+            name: "Chicken Sandwich",
+            price: "Rs.585",  
+        },
+        {
+            name: "Club Sandwich",
+            price: "Rs.695",  
+        },
+        {
+            name: "Roast Chicken Sandwich",
+            price: "Rs.665",  
+        },
+        {
+            name: "Chicken Shawarma",
+            price: "Rs.445",  
+        },
+        {
+            name: "",
+            price: "Rs.425",  
+        },
+        {
+            name: "",
+            price: "Rs.425",  
+        },
+        {
+            name: "",
+            price: "Rs.425",  
+        },
     ]
 
     }
-]
