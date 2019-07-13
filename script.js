@@ -1,17 +1,89 @@
 let Monal[
     {
         resturentName: "Monal",
-        location: "Islamabad",
+        ownerName: "Luqman Ali Afzal",
+        location: "‎Pir Sohawa Road, Islamabad",
+        Opening date‎: ‎"05-11-1969",
+        Opening Hours‎: ‎"9AM--12AM",
+        phoneNo: "(051) 2898044",
+        profile: "instagram",
+        atYoutube: "http://www.youotube.com/watch?v=MdAqnZwYFyQ",
+        atFacebook: "http://www.facebook.com/TheMonalResturantIslamabad",
+        rating: " Rating: 4.4 - ‎38,661 vote",
         way: "at Highest peak of mountain",
-        adress:  "9KM Pir Sohawa Rd, Islamabad, Islamabad Capital Territory",
+        address:  "9KM Pir Sohawa Rd, Islamabad, Islamabad Capital Territory",
+        height: "Height of Pir Sohawa is 1524 meters (5000 feet) above seal level",
+        quantityOfWaiters: 100,
+        noOfFullStaff: 200,
+        noOfTables: 500,
+        noOFChairs: 5000,
+        home: ["Main", "Home", "About", "Menu", "A La Carte", "Breakfast", 
+                "Platters", "Individual Platters", "Breakfast Platters", 
+                "Hi-Tea Platters", "Sunday Brunch", "Party Menu", "Reservation"],
+        homeDetails: ["Menu", "About", "Contacts", "Sunday brunch buffet"],
+        areas: ["play area", "hi-tea area", "reception", "birthday party areas", 
+               "family areas"],
+        deals: ["family deals", "kids deals", "ramzan iftar/sehri deals",
+               "fast food deals", "italian deals", "pakistani deals", "sweetitems deals",
+                "spicy food deals"]
+        staff: [
+            {
+                name: "M.Afzal" ,
+                postion: "Manager",
+                salary: "handsome Salary",
+                workTiming: "12 hours",
+                qualification: "masters in accounts",
+                gender: "male",
+                experience: "10 years",
+                contactNo: "0323-547890",
+                email: "afzal@gamil.com",
+                anotherAcount: "facebook or instagram",
+            },
+            {
+                name: "safdar",
+                postion: "ceo",
+                salary: 50000,
+                workTiming: "12 hours",
+                qualification: "phd",
+                gender: "male",
+                experience: "20 years",
+                contactNo: "0324-68798098",
+                email: "safdar@gamail.com",
+                anotherAcount: "no",
+            },
+            {
+                name: "Saad" ,
+                postion: "head of mangment",
+                salary: 100000,
+                workTiming: "12 Hours",
+                qualification: "masters in finance",
+                gender: "male",
+                experience: "15 years",
+                contactNo: "0342-7687875",
+                email: "saad@gmail.com",
+                anotherAcount: "no",
+            },
+            {
+                name: "sofia",
+                postion: "head of staff",
+                salary: 40000,
+                workTiming: "12 hours",
+                qualification: "graduate",
+                gender: "female",
+                experience: "5 years",
+                contactNo: "0309-25618721",
+                email: "sofianaz@gamial.com",
+                anotherAcount: "instagram",
+            }
+        ],
         openHours: {
-            Saturday	9am–12:30am
-            Sunday	9am–12:30am
-            Monday	9am–12:30am
-            Tuesday	9am–12:30am
-            Wednesday	9am–12:30am
-            Thursday	9am–12:30am
-            Friday	9am–12:30am
+            "Saturday" = "9am–12:30am",
+            "Sunday" = "9am–12:30am",
+           " Monday" = "9am–12:30am",
+           " Tuesday" =	"9am–12:30am",
+           " Wednesday" = "9am–12:30am",
+            "Thursday" = "9am–12:30am",
+            "Friday" = "9am–12:30am",
         },
         Phone: "(051) 2898044",
         quantityOfVariety: "300",
@@ -23,14 +95,14 @@ let Monal[
         "Ice Cream Shakes", "Ice Cream Treats", "Beat the Heat", "Seasonal Dessert", "Winter Warmers",
         "Cakes,Bakes and Dessert", "Special Drinks", "Live Kitchen"],
     sections: ["Tawa Section", "Namkeen SEction", "Fish Section", "Desserts"],
-    pakistaniBreakFast: Choice of Fresh Seasonal Juice(300 ml)
-                        OR Lassi Two Farm Fresh Eggs made as per your preference
-                        Lahori Chanay Poori(2 Pieces) & Pakistani Paratha(1 piece)
-                        Suji Halwa Poodinay Walay Aloo Tea / Coffee / Green Tea,
-    continentalBreakFast: Choice of Fresh Seasonal Juice(300 ml)
-                        OR Lassi Two Farm Fresh Eggs made as per your preference
-                        Toasted Bread(2 Slices), Butter & Jam Meaty Side line Tea /
-                        Coffee / Green Tea,
+    pakistaniBreakFast: ["Choice of Fresh Seasonal Juice(300 ml)",
+                        "Lassi Two Farm Fresh Eggs", "Lahori Chanay Poori(2 Pieces)", 
+                        "Pakistani Paratha(1 piece)", "Suji Halwa Poodinay Walay Aloo", 
+                        "Tea / Coffee / Green Tea"],
+    continentalBreakFast: ["Choice of Fresh Seasonal Juice(300 ml)",
+                        "Lassi Two Farm Fresh Eggs", "Lahori Chanay Poori(2 Pieces)", 
+                        "Pakistani Paratha(1 piece)", "Suji Halwa Poodinay Walay Aloo", 
+                        "Tea / Coffee / Green Tea"],
     hiTeaTimings: ["Monday to Saturday",
                     "1st Slot: 01:00 PM to 02:30 PM",
                     "2nd Slot: 03:00 PM to 04:30 PM",
@@ -38,6 +110,79 @@ let Monal[
                     "Sunday",
                     "1st Slot: 03:00 PM to 04:30 PM",
                     "2nd Slot: 05:00 PM to 06:30 PM"],
+    dinnerBuffetTiming: ["Every day from 7:15 PM – 11:30 PM in Two Slots",
+                        "1st slot 7:15 pm to 9:15 pm",
+                        "2nd slot 9:30 pm to 11:30 pm"],
+    forReservationNo: "042 35789823, 24, 25",
+    monalSundayBrunchprice: "Rs. 1085+Taxes",
+    monalSundayBrunchMenu: ["Chicken Seekh Kabab", "Chicken Boti", "Chicken Karahi", "Zeera Pulao", 
+                            "Piya-Kulcha", "Beef Nehari", "Chicken Haleem", "Chicken tawa qeema",
+                            "lahori chirga", "Aloo Bhujia", "Beef Qeema", "Chicken tikka",
+                           "Seekh Kabab", "Chana Chaat", "Aloo Keema", "Samosas", "Sajji", "Haleem"],
+    platterPrice: {
+        "chinese platter" = "Rs.765",
+        "continental platter" = "Rs.765",
+        "italian platter" = "Rs.865",
+        "kabuli platter" = "RS.765",
+        "kids platter" = "Rs.595",
+        "mutton lovers platter" = "Rs.1045",
+        "thai platter" = "Rs.765",
+        "vegetraian platter" = "Rs.765",
+        "pakistani platter" = "Rs.765",
+    },   
+    iftarDishes: ["Iranian Khajoor", "Dahi Baray", "Fruit Chaat", "Chinese Meat Balls",
+                "Cheese Naan", "BBQ Chicken Wings", "Aalo Samosa", "Assorted PAkoras",
+                "Monal Special Potato Cutlus", "Chicken/Cheese Sandwiches", "Frosted Lemonade",
+                "Mint Lemonade", "Nestle Lemon / Orange", "Mix Tea / Green Tea"],
+    MainCoursesOfIftar: ["chicken reshmi tikka(boneless)", "chicken achari boti (with bone)",
+                        "chicken gola kabab", "batter fried fish & chips", "mutton karahi (with bone)",
+                        "chicken makhni(boneless)", "kabuli pilao", "thai chicken with cashew nuts",
+                        "chicken manchorian"],
+    branchescity: ["rawalpindi", "islamabad", "faisalabad", "lahore"],
+    searchRelatedToMonalDetails: [
+        "monal islamabad menu",
+        "monal islamabad heights",
+        "monal islamabad buffet rates 2019",
+        "monal resturant islamabad menu rates 2018", 
+        "monal islamabad buffet per head",
+        "monal islamabad islamabad pics",
+        "monal islamabad hi tea",
+        "monal resturant islamabad platter price",
+    ]
+    dessertMenu: [
+        {
+            name: "Sizzling Brownie & ICe cream",
+            price: "Rs.345",
+        },
+        {
+            name: "Molten Chocolate Cake",
+            price: "Rs.525",
+        },
+        {
+            name: "Bread and Butter Pudding",
+            price: "Rs.525",
+        },
+        {
+            name: "Cheese Cake Slice",
+            price: "Rs.335",
+        },
+        {
+            name: "Chocolate Fudge Cake Slice",
+            price: "Rs.335",
+        },
+        {
+            name: "Mousse Cake Slice",
+            price: "Rs.395",
+        },
+        {
+            name: "Cramel Coffee Cake Slice",
+            price: "Rs.335",
+        },
+        {
+            name: "Ice Cream Cake Slice",
+            price: "Rs.395",
+        },
+    ]
 
     }
 ]
